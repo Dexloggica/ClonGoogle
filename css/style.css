@@ -1,0 +1,70 @@
+/*reglas
+selectores
+declaraciones
+propiedades
+valores
+ */
+:root{
+    --primario:#ffe692;
+    --secundario:#ffc500;
+    --terciario:#a5a5a5;
+    --cuarto:#212121;
+    --quinto:#151515;
+}
+.menu{
+    margin-left: 10px;
+    font-size: 13px;
+    color:var(--quinto);
+    font-family: "Arial" ;
+    text-decoration: none;
+    margin-top: 13px;
+}
+.textomenu{
+    color: var(--quinto);
+    text-decoration: none;
+}
+.textomenu:hover{
+    text-decoration: none;
+    color: var(--quinto);
+}
+.logo{
+    margin-top: 150px;
+    width: 20%; height: 20%;
+}
+.lupa{
+    margin-top: 15px;
+    margin-right: auto;
+    width: 20%; height: 20%;
+}
+
+.buscador{
+    margin-top: 15px;
+    border-radius: 25px;
+    border: 1px solid var(--terciario);
+    width: 600px;
+    height: 50px;
+}
+.icon{
+
+}
+.boton{
+    background: none;
+    border: none;
+}
+.textinput{
+    border: none;
+    width: 600px;
+}
+
+.imagen-btn{
+    height:20px;
+    width:20px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+.footer{
+margin-top: 150px;
+}
+
+
+
