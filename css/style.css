@@ -12,7 +12,7 @@ valores
     --quinto:#151515;
 }
 .menu{
-    margin-left: 10px;
+    margin-right: 20px;
     font-size: 13px;
     color:var(--quinto);
     font-family: "Arial" ;
@@ -63,7 +63,19 @@ valores
     margin-left: 5px;
 }
 .footer{
-margin-top: 150px;
+    margin-top: 150px;
+}
+
+.menu-icon{
+    background-image: url("../imagenes/menu-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    cursor: pointer;
+}
+.menu-icon:hover{
+    background-image: url("../imagenes/menu-icon-black.png");
 }
 
 
