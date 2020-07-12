@@ -18,6 +18,7 @@ valores
     font-family: "Arial" ;
     text-decoration: none;
     margin-top: 13px;
+    align-items: center;
 }
 .textomenu{
     color: var(--quinto);
@@ -76,6 +77,11 @@ valores
 }
 .menu-icon:hover{
     background-image: url("../imagenes/menu-icon-black.png");
+}
+
+.img-perfil{
+    border-radius: 50%;
+    margin-left: 10px;
 }
 
 
